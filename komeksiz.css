@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.card{
+    width: 339px;
+    height: 550px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    margin: 27px;
+    border-radius: 17px;
+    overflow: hidden;
+}
+
+.sekil{
+    height: 40%;
+    overflow: hidden;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+.yazi{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 7px;
+
+    
+}
+
+.footer{
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgreen;
+    align-items: center;
+
+    
+    .ayaq{
+        color: white;
+        background-color: darkgreen;
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+    }
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 120px;
+    
+}
+
+.body{
+    background-color: chocolate;
+}
